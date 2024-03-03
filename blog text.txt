@@ -1,0 +1,13 @@
+I’m Abhay Ubhale aka Coding Abby. I’m currently pursuing B.Tech in CS at VJTI, as a second-year student. I have self-learned a lot on my journey of programming and do not want anyone to make the same mistakes I did. Hence, this blog is dedicated to everyone who dreams of becoming a good programmer.
+
+I request that you read the entire blog in depth so that you can get the most out of it.
+
+You may or may not be from circuit branches(CS, IT, Tronix, Trical, ExTC) but you can still have a career in the IT sector. This guide is for every newbie out there, in the chaos of “How do I start programming?”
+
+Before coming to VJTI, the only knowledge about programming I had was HTML and CSS. It was taught as an optional subject in high school. Later I came to realize that HTML was not even a programming language 🥴. When I became comfortable in VJTI, the programmer in me became equally uncomfortable (peer pressure dude!), because they don’t teach you elaborate programming in First-Year except for basic C++ problem-solving. Some students were doing programming since sixth grade, and some were working on projects or with startups and whatnot. I started to feel intimidated. I felt, “When would I be coding those cool applications? I don’t even know basic logic building yet!”. Don’t worry everyone starts just like this🥺, provided you start!
+
+The first programming language is always a personal choice. After banging my head a lot for choosing my first language, I selected C++ (waise jyada choice nahi tha). You can opt for Java, Python, or JavaScript, whatever suits you. Many beginner tutorials out there give suggestions about Python being the easiest language (because you don’t have semicolons there ;P ). That’s what makes it unsuitable to start with. The reason is, shifting from C++ or Java to Python is easy, whereas the other way round is miserable.
+
+You can handle things that are close to the execution (or system) level in C/C++ which will push you to explore how the language works internally. Other languages come with a lot of abstraction layers for programmers to not worry about background processes.
+
+After working with C++ for a while, I realized that the time has come to move on. It will teach you concepts like the basics of data types, loops, pointers, and then the more advanced concepts like Object-Oriented Programming (OOPs), data structures, etc. It’s absolutely fine if you didn’t get any of these right now (meine bhi net se copy Kiya tha 😂).

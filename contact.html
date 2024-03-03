@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link href="css/bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        h3 {
+            text-align: center;
+            text-decoration: aqua;
+            color: grey;
+            margin: 0px;
+            padding: 15px;
+            font-family: ';
+        }
+        .col {
+            
+        }
+        .fm {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .fm .txt {
+            width: 400px;
+        }
+        textarea{
+            height: 100px;
+        }
+        .btn {
+            width: 100px;
+        }
+        .txt-cont {
+            display:flex;
+            flex-direction: column;
+        }
+    </style>
+  </head>
+  <body>
+    <div w3-include-html="/includes/navbar.html"></div>
+
+    <div class="header">
+        <!-- <h1>Contact us</h1> -->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h3>Get in touch!!</h3>
+                <p> </p>
+                <p>
+                <img src="/images/email-icon.png" style="height: 30px;">
+                kaherubrian2016@gmail.com
+                <p>
+                <img src="/images/phonecall_110970.png">
+                +256770437160
+                </p>
+
+            </div>
+            <div class="col-8">
+                <h3>Have a question?</h3>
+                <h3>Leave your question here and we’ll do our best to answer you ASAP.</h3>
+                <form id="contact_form" name="contact_form" method="post">
+                    <div class="mb-5 row">
+                        <div class="col">
+                            <label>First Name</label>
+                            <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+                        </div>
+                        <div class="col">
+                            <label>Last Name</label>
+                            <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+                        </div>
+                    </div>
+                    <div class="mb-5 row">
+                        <div class="col">
+                            <label for="email_addr">Email address</label>
+                            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="col">
+                            <label for="phone_input">Phone</label>
+                            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                                placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary px-4 btn-lg">Send</button>
+                </form>
+
+
+                <!-- <form class="fm" action="post">
+                    <div>
+                    <label for="email" style="display: block;">Email</label>
+                    <input class="txt" type="email" name="email" id="email" placeholder="Input your Email">
+                </div>
+                <div class="txt-cont" >
+                    <label for="txt">Write here.</label>
+                    <textarea class="txt" name="" id="" cols="30" rows="10" placeholder="Type your text here"></textarea>
+                </div>
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                   
+                </form> -->
+               
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/css/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="/js/includes.js"></script>
+
+    <script src="/css/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+
+    <script src="css/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
